@@ -1,0 +1,38 @@
+body{
+  background: #F1F1F1;
+}
+.container{
+  background: #FFF;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0,0,0, 0.2);    
+}
+h1{
+  font-family: 'Saira Extra Condensed', sans-serif;
+  text-align: center;
+}
+ul {
+  width: 100%;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+li{
+  list-style: none;
+  width: 30%;  
+  padding: 7px;
+  margin-bottom: 5px;
+}
+label{
+  font-weight: bold;
+}
+#passwords{
+  min-height: 200px;
+  font-size: 30px;  
+  color: #ccc; display: flex;
+  align-items: center;
+}
+
+#passwords li {
+  width: 100%;
+}
